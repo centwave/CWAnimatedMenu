@@ -1,8 +1,9 @@
 Create a menu that looks like the menu in "Path" Application. 
-<img src="https://github.com/centwave/CWAnimatedMenu/blob/master/screenshot.png">
-Support Animation style
-1. Expansion
-2. fade out
+<img src="https://github.com/centwave/CWAnimatedMenu/raw/master/screenshot.png">
+
+Support Animation style <br/>
+1. Expansion <br/>
+2. fade out <br/>
 
 Position style
 1. Top Left
