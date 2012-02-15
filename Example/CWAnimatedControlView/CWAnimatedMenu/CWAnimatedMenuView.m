@@ -48,6 +48,7 @@
 @synthesize masterButtonAnimationEnabled = _masterButtonAnimationEnabled;
 @synthesize isExpanded = _isExpanded;
 @synthesize expandDistanceScale = _expandDistanceScale;
+@synthesize masterRotateAngle = _masterRotateAngle;
 
 - (id)initWithStyle:(CWAnimatedMenuStyle)style position:(CWAnimatedMenuPosition)pos
 {
@@ -103,6 +104,9 @@
       
       //set it NO to disable the animation of master button
       self.masterButtonAnimationEnabled = YES; 
+      
+      //master rotation animation angle
+      self.masterRotateAngle = -45;
     }
     return self;
 }
@@ -813,7 +817,7 @@
     // if it has been expand then reverse the animation.
     BOOL reverse = _menuFlag.isExpanded;
     if (self.masterButtonAnimationEnabled){
-      [self animateMasterButtonWithExpand:reverse withAngle:-45 duration:0.3];
+      [self animateMasterButtonWithExpand:reverse withAngle:self.masterRotateAngle duration:0.3];
     }
     [self animateMenuButtonWithStyle:self.style isReversed:reverse];
   }

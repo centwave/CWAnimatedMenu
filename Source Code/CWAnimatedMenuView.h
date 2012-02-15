@@ -54,6 +54,7 @@ typedef enum {
 @property (nonatomic) CGFloat animationDuration;
 @property (nonatomic) CGFloat expandDistanceScale;
 @property (nonatomic) CGFloat animationDelay;
+@property (nonatomic) CGFloat masterRotateAngle;
 @property (nonatomic) CWAnimatedMenuStyle style;
 @property (nonatomic) CWAnimatedMenuPosition position;
 @property (nonatomic, setter = setScaleFactorIfButtonSelected:) CGFloat scale;

@@ -43,6 +43,13 @@
 
 /*-----------------------------------------------------------------------------------------------------------------------------------*/ 
 
+- (id)initWithMenuItems:(NSArray *)items
+{
+  return [self initWithMenuItems:items style:CWAnimatedMenuExpansion position:CWAnimatedMenuBottomLeft];
+}
+
+/*-----------------------------------------------------------------------------------------------------------------------------------*/ 
+
 - (id)initWithMenuItems:(NSArray *)items radius:(CGFloat)radius gap:(CGFloat)gap beginAngle:(CGFloat)aAngle endAngle:(CGFloat)bAngle 
                   style:(CWAnimatedMenuStyle)style position:(CWAnimatedMenuPosition)pos
 {

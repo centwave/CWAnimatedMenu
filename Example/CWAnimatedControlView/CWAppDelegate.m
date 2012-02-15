@@ -7,8 +7,8 @@
 //
 
 #import "CWAppDelegate.h"
-#import "CWAnimatedMenuController.h"
-#import "CWViewController.h"
+#import "animatedMenuController.h"
+
 
 @implementation CWAppDelegate
 
@@ -46,7 +46,7 @@
   [array addObject:[[[CWAnimatedMenuItem alloc] initWithImage:[UIImage imageButtonWithBackGround:buttonImage frontImage:sleep] tag:5]autorelease]];
   [array addObject:[[[CWAnimatedMenuItem alloc] initWithImage:[UIImage imageButtonWithBackGround:buttonImage frontImage:thought] tag:6]autorelease]];
   
-  self.viewController = [[[CWAnimatedMenuController alloc] initWithMenuItems:array style:CWAnimatedMenuFadeOut position:CWAnimatedMenuBottomLeft] autorelease];
+  self.viewController = [[[animatedMenuController alloc] initWithMenuItems:array] autorelease];
   self.window.rootViewController = [[[UINavigationController alloc] initWithRootViewController:self.viewController] autorelease];
   [self.window makeKeyAndVisible];
   

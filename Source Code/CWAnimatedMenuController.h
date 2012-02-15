@@ -13,6 +13,8 @@
 
 @property (nonatomic, readonly) CWAnimatedMenuView *menuView;
 
+- (id)initWithMenuItems:(NSArray *)items;
+
 /*-----------------------------------------------------------------------------------------------------------------------------------*/ 
 
 - (id)initWithMenuItems:(NSArray *)items style:(CWAnimatedMenuStyle)style position:(CWAnimatedMenuPosition)pos;

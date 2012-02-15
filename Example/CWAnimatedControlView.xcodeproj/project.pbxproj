@@ -29,6 +29,7 @@
 		76B43D5314E25F86005169E9 /* CWAnimatedMenuButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 76B43D5214E25F86005169E9 /* CWAnimatedMenuButton.m */; };
 		76B43D5A14E27AA9005169E9 /* CWAnimatedMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76B43D5914E27AA9005169E9 /* CWAnimatedMenuController.m */; };
 		76B43D5E14E28388005169E9 /* CWAnimatedMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 76B43D5D14E28388005169E9 /* CWAnimatedMenuView.m */; };
+		76E1B64114EC28DA0005E0DE /* animatedMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76E1B64014EC28DA0005E0DE /* animatedMenuController.m */; };
 		76F0BD5A14E716240031D792 /* story-button.png in Resources */ = {isa = PBXBuildFile; fileRef = 76F0BD4C14E716240031D792 /* story-button.png */; };
 		76F0BD5B14E716240031D792 /* story-button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 76F0BD4D14E716240031D792 /* story-button@2x.png */; };
 		76F0BD5C14E716240031D792 /* story-camera.png in Resources */ = {isa = PBXBuildFile; fileRef = 76F0BD4E14E716240031D792 /* story-camera.png */; };
@@ -88,6 +89,8 @@
 		76B43D5914E27AA9005169E9 /* CWAnimatedMenuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CWAnimatedMenuController.m; path = CWAnimatedMenu/CWAnimatedMenuController.m; sourceTree = "<group>"; };
 		76B43D5C14E28388005169E9 /* CWAnimatedMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CWAnimatedMenuView.h; path = CWAnimatedMenu/CWAnimatedMenuView.h; sourceTree = "<group>"; };
 		76B43D5D14E28388005169E9 /* CWAnimatedMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CWAnimatedMenuView.m; path = CWAnimatedMenu/CWAnimatedMenuView.m; sourceTree = "<group>"; };
+		76E1B63F14EC28DA0005E0DE /* animatedMenuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = animatedMenuController.h; sourceTree = "<group>"; };
+		76E1B64014EC28DA0005E0DE /* animatedMenuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = animatedMenuController.m; sourceTree = "<group>"; };
 		76F0BD4C14E716240031D792 /* story-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "story-button.png"; sourceTree = "<group>"; };
 		76F0BD4D14E716240031D792 /* story-button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "story-button@2x.png"; sourceTree = "<group>"; };
 		76F0BD4E14E716240031D792 /* story-camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "story-camera.png"; sourceTree = "<group>"; };
@@ -166,6 +169,8 @@
 				76B43D3714E24A39005169E9 /* CWAnimatedMenu */,
 				76327CF514E2496A004C7626 /* CWAppDelegate.h */,
 				76327CF614E2496A004C7626 /* CWAppDelegate.m */,
+				76E1B63F14EC28DA0005E0DE /* animatedMenuController.h */,
+				76E1B64014EC28DA0005E0DE /* animatedMenuController.m */,
 				76327CFB14E2496A004C7626 /* CWViewController.xib */,
 				76327CED14E2496A004C7626 /* Supporting Files */,
 			);
@@ -377,6 +382,7 @@
 				76B43D5A14E27AA9005169E9 /* CWAnimatedMenuController.m in Sources */,
 				76B43D5E14E28388005169E9 /* CWAnimatedMenuView.m in Sources */,
 				76759B6014EBA170005D16D8 /* CWImageDelegate.m in Sources */,
+				76E1B64114EC28DA0005E0DE /* animatedMenuController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
