@@ -146,7 +146,7 @@
   if (self.elemCount > 1)
     [self SortMenuItemsByTag];
   
-  [self addSubview:menuButton];
+  [self insertSubview:menuButton atIndex:1];
   [menuButton release];
 }
 
@@ -160,7 +160,7 @@
   }
   _masterButtonItem = [[CWAnimatedMenuButton alloc] initWithCWAnimatedMenuItem:masterItem];
   [_masterButtonItem addTarget:self action:@selector(masterButtonTouchAction) forControlEvents:UIControlEventTouchUpInside];
-  [self addSubview:_masterButtonItem];
+  [self insertSubview:_masterButtonItem atIndex:2];
 }
 
 /*-----------------------------------------------------------------------------------------------------------------------------------*/ 
@@ -177,11 +177,7 @@
 
 -(void)addSubview:(UIView *)view
 {
-  [super addSubview:view];
-  for (CWAnimatedMenuButton *button in self.menuButtonItems) {
-    [self bringSubviewToFront:button];
-  }
-  [self bringSubviewToFront:self.masterButtonItem];
+  [super insertSubview:view atIndex:0];
 }
 
 /*-----------------------------------------------------------------------------------------------------------------------------------*/ 

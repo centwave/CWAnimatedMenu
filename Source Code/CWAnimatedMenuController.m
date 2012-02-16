@@ -35,6 +35,7 @@
     }
     
     view.delegate = self;
+    view.bounds = self.view.bounds;
     self.view = view;
     [view release];
   }
