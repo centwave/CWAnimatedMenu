@@ -1,4 +1,4 @@
-Create a menu that looks like the menu in "Path" Application. 
+Create a menu that looks like the menu in "Path" Application. <br/>
 <img src="https://github.com/centwave/CWAnimatedMenu/raw/master/screenshot.png" width="320">
 
 Support Animation style <br/>
@@ -25,8 +25,8 @@ The default positioning for master button <br/>
 6. master button rotation angle<br/> - optional 
 7. enabled value of animation of master button<br/> - optional
 
-# if you have any questions, feel free to ku4n.wordpress.com leave a message to me.
-# besides, if you find any bugs, please tell me. I really appreciate it. Thanks!
+<b>if you have any questions, feel free to ku4n.wordpress.com leave a message to me.</b>
+<b>besides, if you find any bugs, please tell me. I really appreciate it. Thanks!</b>
 
 
 
