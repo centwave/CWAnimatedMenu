@@ -4,9 +4,10 @@
 //
 //  Created by Ku4n Cheang on 8/2/12.
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
-//
+//  Licensed under the MIT license: http://www.opensource.org/licenses/mit-license.php
 
 #import "CWAnimatedMenuButton.h"
+#import <QuartzCore/QuartzCore.h>
 
 #define DEGREES_TO_RADIANS(angle) (angle / 180.0 * M_PI)
 
